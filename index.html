@@ -1,108 +1,135 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
   <head>
 
     <meta charset="utf-8">
     <title>Film Club</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="/Users/MattMcDonald/Desktop/tiy-durham/Week 2/week-two-project/css/main.css">
+    <link rel="stylesheet" href="/Users/MattMcDonald/Desktop/tiy-durham/Week 2/week-two-project/css/home.css">
 
   </head>
+
   <body>
 
-  <nav>
+    <header>
 
-    <div class="logo"></div>
-
-    <ul class="nav-row">
-
-      <div class="nav-home">
-        <li class="nav-item">
-          <a href="index.html">Home</a>
-        </li>
-      </div>
-      <div class="nav-calendar">
-        <li class="nav-item">
-          <a href="calendar.html">Calendar</a>
-        </li>
-      </div>
-      <div class="nav-join">
-        <li class="nav-item">
-          <a href="join.html">Join</a>
-        </li>
-      </div>
-      <div class="nav-copyright">
-          <span class="nav-item"></span>
+      <div class="logo-wrapper">
+        <img src="images/filmclub.png" id="logo-image">
       </div>
 
-    </ul>
+      <nav class="head-nav">
 
-  </nav>
-
-
-  <main>
-
-    <h1>Get Involved</h1>
-
-    <section class="main-one">
-
-      <div class="flex-item" class="main-watch">
-        <h2 class="main-sub-head">Watch</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="flex-item" class="main-take-notes">
-        <h2 class="main-sub-head">Take Notes</h2>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="flex-item" class="main-meetup">
-        <h2 class="main-sub-head">Meetup</h2>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-
-    </section>
-    <section class="main-two">
-
-      <h3>Up Next</h3>
-
-      <div class="rashomon-block">
-
-
-        <div class="rashomon-pic"></div>
-        <a href="#">Rashomon</a>
-        <p>Film Club: 6/13</p>
-        <h4>Discussion Points</h4>
-        <ul>
-          <li>perspective</li>
-          <li>balance</li>
-          <li>movement</li>
-          <li>emphasis</li>
-          <li>space</li>
-        </ul>
-
-      </div>
-      <div class="">
-
-        <div class="">
-          <div class="train-robbery"></div>
-          <a href="#">The Great Train Robbery</a>
-          <p>Film Club: 6/27</p>
+        <div class="home-nav">
+          <a href="index.html" class="home-nav">Home</a>
         </div>
-        <div class="">
-          <div class="bicycle-thief"></div>
-          <a href="#">The Bicycle Thief</a>
-          <p>Film Club: 7/11</p>
+        <div class="calendar-nav">
+          <a href="calendar.html" class="calendar-nav">Calendar</a>
         </div>
-        <div class="">
-          <div class="nosferatu"></div>
-          <a href="#">Nosferatu</a>
-          <p>Film Club: 7/25</p>
+        <div class="join-nav">
+          <a href="join.html" class="join-nav">Join</a>
         </div>
-        <div class="">
-          <div class="metropolis"></div>
-          <a href="#">Metropolis</a>
-          <p>Film Club: 8/08</p>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <section class="get-involved">
+
+        <h1>
+          Get Involved
+        </h1>
+
+        <div class="get-involved-article-wrapper">
+
+          <article>
+            <h2>
+              Watch
+            </h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </article>
+          <article>
+            <h2>
+              Take Notes
+            </h2>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </article>
+          <article>
+            <h2>
+              Meetup
+            </h2>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </article>
+
+        </div>
+      </section>
+
+      <section class="up-next">
+
+      <h2>
+        Up Next
+      </h2>
+
+      <div class="next-movie">
+
+        <img src="images/rashomon-poster.jpg" class="movie-poster next-movie-poster">
+
+        <div class="next-movie-info">
+
+          <div class="next-movie-title">
+            <a href="https://www.youtube.com/watch?v=7QTrx3YNz7A&t=8s" target="_blank">Rashomon</a>
+          </div>
+
+          <div class="movie-date">
+            Film Club: <b>6/13</b>
+          </div>
+
+          <div class="next-movie-notes">
+            <h3>
+              Discussion Points
+            </h3>
+
+            <ul>
+
+              <li>perspective</li>
+              <li>balance</li>
+              <li>movement</li>
+              <li>emphasis</li>
+              <li>space</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="future-movies">
+
+        <div class="future-movie-wrapper">
+          <img src="images/great-train-poster.jpg" class="movie-poster">
+          <p><a href="https://www.youtube.com/watch?v=zuto7qWrplc" target="_blank">The Great Train Robbery</a></p>
+          <p>Film Club: <b>6/27</b></p>
+        </div>
+
+        <div class="future-movie-wrapper">
+          <img src="images/bicycle-thief-poster.jpg" class="movie-poster">
+          <p><a href="https://www.youtube.com/watch?v=H3jnzXX9mXs" target="_blank">The Bicycle Thief</a></p>
+          <p>Film Club: <b>7/11</b></p>
+        </div>
+
+        <div class="future-movie-wrapper">
+          <img src="images/nosferatu-poster.jpg" class="movie-poster">
+          <p><a href="https://www.youtube.com/watch?v=FC6jFoYm3xs" target="_blank">Nosferatu</a></p>
+          <p>Film Club: <b>7/25</b></p>
+        </div>
+
+        <div class="future-movie-wrapper">
+          <img src="images/metropolis-poster.jpg" class="movie-poster">
+          <p><a href="https://www.youtube.com/watch?v=Q0NzALRJifI" target="_blank">Metropolis</a></p>
+          <p>Film Club: <b>8/08</b></p>
         </div>
 
       </div>
@@ -111,38 +138,21 @@
 
   </main>
 
-  <footer>
+    <footer>
 
-    <nav class="footer">
+      <nav class="foot-nav">
 
-      <ul class="nav-row-footer">
-
-        <div class="footer-home">
-          <li class="nav-item">
-            <a href="index.html">Home</a>
-          </li>
-        </div>
-        <div class="footer-calendar">
-          <li class="nav-item">
-            <a href="calendar.html">Calendar</a>
-          </li>
-        </div>
-        <div class="footer-join">
-          <li class="nav-item">
-            <a href="join.html">Join</a>
-          </li>
-        </div>
-        <div class="footer-copyright">
-            <span class="nav-item">© 2017, Film Club</span>
+        <a href="index.html" class="home-nav">Home</a>
+        <a href="calendar.html" class="calendar-nav">Calendar</a>
+        <a href="join.html" class="join-nav">Join</a>
+        <div class="copyright">
+          &copy; 2017, Film Club
         </div>
 
-      </ul>
+      </nav>
 
-    </nav>
-
-
-
-  </footer>
+    </footer>
 
   </body>
+
 </html>
