@@ -1,0 +1,101 @@
+.main-join h1 {
+  margin: 30px 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+.profile-pic-display {
+  background-image: url(../images/profile-placeholder.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.name-email-password {
+  margin-left: 15px;
+}
+
+.name-email-password input {
+  width: 95%;
+  font-size: 1.5em;
+}
+
+.genres {
+  margin-top: 20px;
+  line-height: 250%;
+}
+
+.additional-input textarea {
+  width: 98%;
+}
+
+#submit-button {
+  border: none;
+  margin: 20px 11px 50px 11px;
+  padding: 20px 15px;
+  background-color: #F5005B;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 545px) {
+  .upper-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .upper-form-div2 {
+    padding-top: 50px;
+  }
+
+  .genres-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .profile-pic-display {
+    height: 250px;
+    width: 250px;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .upper-form {
+    grid-template-columns: 35% 65%;
+  }
+
+  .name-email-password input {
+    width: 95%;
+    font-size: 1.5em;
+  }
+
+  .name-email-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .upper-form-div1 {
+    width: 50%;
+  }
+
+  .upper-form-div2 {
+    padding-top: 0;
+    width: 50%;
+  }
+
+  .genres-wrapper {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+  }
+
+  .additional-input textarea {
+    width: 62%;
+  }
+}

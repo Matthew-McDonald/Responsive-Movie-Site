@@ -1,0 +1,60 @@
+.main-calendar h1 {
+  margin: 30px 20px;
+}
+
+.june-calendar {
+  background-color: #0B1942;
+}
+
+.june-calendar h2 {
+  padding: 20px 20px 0;
+}
+
+.calendar-array {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0B1942;
+  padding: 1px 1px 30px;
+}
+
+.day {
+  width: 13.76%;
+  height: 50px;
+  border: 1px solid #0B1942;
+  background-color: #FFFFFF;
+}
+
+.day-active {
+  background-color: #F5005B;
+}
+
+.day span {
+  padding: 8px;
+  background-color: #0B1942;
+  color: #FFFFFF;
+  font-size: .8em;
+}
+
+
+@media screen and (min-width: 545px) {
+  .day {
+    width: 13.9%;
+    height: 90px;
+    border: 1px solid #0B1942;
+  }
+
+  .day span {
+    padding: 5px;
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+  .day {
+    width: 14%;
+    height: 120px;
+    border: 1px solid #0B1942;
+  }
+
+}

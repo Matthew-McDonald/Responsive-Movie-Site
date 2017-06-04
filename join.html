@@ -1,14 +1,151 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
   <head>
 
     <meta charset="utf-8">
     <title>Film Club - Join</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-    
+    <link rel="stylesheet" href="/Users/MattMcDonald/Desktop/tiy-durham/Week 2/week-two-project/css/main.css">
+    <link rel="stylesheet" href="/Users/MattMcDonald/Desktop/tiy-durham/Week 2/week-two-project/css/join.css">
+
   </head>
+
   <body>
 
-  </body>
+    <header>
+
+      <div class="logo">
+        <img src="images/filmclub.png" id="main-logo">
+      </div>
+
+      <nav class="head-nav">
+
+        <div class="home-nav">
+          <a href="index.html" class="home-nav">Home</a>
+        </div>
+
+        <div class="calendar-nav">
+          <a href="calendar.html" class="calendar-nav">Calendar</a>
+        </div>
+
+        <div class="join-nav">
+          <a href="join.html" class="join-nav">Join</a>
+        </div>
+
+      </nav>
+
+    </header>
+
+    <main class="main-join">
+
+      <h1>
+        Join Film Club
+      </h1>
+
+      <form class="join-form" action="#">
+
+        <div class="upper-form">
+
+          <fieldset class="profile-pic">
+            <label name="profile-pic">profile picture</label><br>
+            <input type="file" name="profile-pic" size="40">
+            <div class="profile-pic-display">
+            </div>
+          </fieldset>
+
+          <div class="name-email-password">
+
+            <div class="upper-form-div1">
+              <label name="name">name</label><br>
+              <input type="text" name="name"><br>
+              <label name="email-address">email address</label><br>
+              <input type="email" name="email-address"><br>
+            </div>
+
+            <div class="upper-form-div2">
+              <label name="password">password</label><br>
+              <input type="password" name="password"><br>
+              <label name="confirm-password">confirm password</label><br>
+              <input type="password" name="confirm-password"><br>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="lower-form">
+
+          <fieldset class="genres">
+
+            <label name="genres">Which genres are you interested in?</label><br>
+            <div class="genres-wrapper">
+
+              <span>
+                <input type="checkbox" name="action" value="action"> action<br>
+              </span>
+              <span>
+                <input type="checkbox" name="adventure" value="adventure"> adventure<br>
+              </span>
+              <span>
+                <input type="checkbox" name="comedy" value="comedy"> comedy<br>
+              </span>
+              <span>
+                <input type="checkbox" name="drama" value="drama"> drama<br>
+              </span>
+              <span>
+                <input type="checkbox" name="fantasy" value="fantasy"> fantasy<br>
+              </span>
+              <span>
+                <input type="checkbox" name="historical" value="historical"> historical<br>
+              </span>
+              <span>
+                <input type="checkbox" name="horror" value="horror"> horror<br>
+              </span>
+              <span>
+                <input type="checkbox" name="mystery" value="mystery"> mystery<br>
+              </span>
+              <span>
+                <input type="checkbox" name="romance" value="romance"> romance<br>
+              </span>
+              <span>
+                <input type="checkbox" name="science-fiction" value="science-fiction"> science fiction<br>
+              </span>
+              <span>
+                <input type="checkbox" name="western" value="western"> western<br>
+              </span>
+
+            </div>
+
+          </fieldset>
+
+          <fieldset class="additional-input">
+            <label name="additional-input">Additional input</label><br>
+            <textarea name="additional-input" rows="3"></textarea>
+          </fieldset>
+
+          <input type="submit" id="submit-button" value="Join Film Club">
+
+        </div>
+
+      </form>
+
+    </main>
+
+    <footer>
+
+      <nav class="footer-nav">
+
+        <a href="index.html" class="home-nav">Home</a>
+        <a href="calendar.html" class="calendar-nav">Calendar</a>
+        <a href="join.html" class="join-nav">Join</a>
+        <div class="copyright-nav">
+          &copy; 2017, Film Club
+        </div>
+
+      </nav>
+
+    </footer>
+
+    </body>
+
 </html>
