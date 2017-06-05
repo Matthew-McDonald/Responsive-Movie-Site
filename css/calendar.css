@@ -1,16 +1,16 @@
-.main-calendar h1 {
+.calendar h1 {
   margin: 30px 20px;
 }
 
-.june-calendar {
+.june {
   background-color: #0B1942;
 }
 
-.june-calendar h2 {
+.june h2 {
   padding: 20px 20px 0;
 }
 
-.calendar-array {
+.calendar-days {
   display: flex;
   flex-wrap: wrap;
   background-color: #0B1942;
@@ -22,10 +22,6 @@
   height: 50px;
   border: 1px solid #0B1942;
   background-color: #FFFFFF;
-}
-
-.day-active {
-  background-color: #F5005B;
 }
 
 .day span {

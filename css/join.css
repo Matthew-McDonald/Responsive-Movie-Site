@@ -1,4 +1,4 @@
-.main-join h1 {
+.join-main h1 {
   margin: 30px 20px;
 }
 
@@ -6,7 +6,7 @@ fieldset {
   border: none;
 }
 
-.profile-pic-display {
+.profile-template {
   background-image: url(../images/profile-placeholder.png);
   background-size: contain;
   background-position: center;
@@ -17,11 +17,11 @@ fieldset {
   margin: auto;
 }
 
-.name-email-password {
+.credentials {
   margin-left: 15px;
 }
 
-.name-email-password input {
+.credentials input {
   width: 95%;
   font-size: 1.5em;
 }
@@ -43,13 +43,15 @@ fieldset {
   color: #FFFFFF;
 }
 
+/*    TABLET     */
+
 @media screen and (min-width: 545px) {
-  .upper-form {
+  .form-profile {
     display: grid;
     grid-template-columns: 50% 50%;
   }
 
-  .upper-form-div2 {
+  .form-password {
     padding-top: 50px;
   }
 
@@ -58,34 +60,36 @@ fieldset {
     grid-template-columns: 50% 50%;
   }
 
-  .profile-pic-display {
+  .profile-template {
     height: 250px;
     width: 250px;
     margin: 20px 0 0 0;
   }
 }
 
+/*    DESKTOP    */
+
 @media screen and (min-width: 769px) {
-  .upper-form {
+  .form-profile {
     grid-template-columns: 35% 65%;
   }
 
-  .name-email-password input {
+  .credentials input {
     width: 95%;
     font-size: 1.5em;
   }
 
-  .name-email-password {
+  .credentials {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  .upper-form-div1 {
+  .form-name-email {
     width: 50%;
   }
 
-  .upper-form-div2 {
+  .form-password {
     padding-top: 0;
     width: 50%;
   }
