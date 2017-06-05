@@ -67,7 +67,7 @@ fieldset {
     padding-top: 50px;
   }
 
-  .genres-wrapper {
+  .genres-container {
     display: grid;
     grid-template-columns: 50% 50%;
   }
@@ -108,7 +108,7 @@ fieldset {
     width: 50%;
   }
 
-  .genres-wrapper {
+  .genres-container {
     display: grid;
     grid-template-columns: 32% 32% 32%;
   }
