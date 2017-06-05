@@ -1,6 +1,12 @@
+
+
 .join-main h1 {
   margin: 30px 20px;
 }
+
+
+/*   MAIN JOIN CREDENTIALS   */
+
 
 fieldset {
   border: none;
@@ -26,6 +32,10 @@ fieldset {
   font-size: 1.5em;
 }
 
+
+/*   CHECKBOX MAIN   */
+
+
 .genres {
   margin-top: 20px;
   line-height: 250%;
@@ -43,7 +53,9 @@ fieldset {
   color: #FFFFFF;
 }
 
+
 /*    TABLET     */
+
 
 @media screen and (min-width: 545px) {
   .form-profile {
@@ -67,7 +79,9 @@ fieldset {
   }
 }
 
+
 /*    DESKTOP    */
+
 
 @media screen and (min-width: 769px) {
   .form-profile {

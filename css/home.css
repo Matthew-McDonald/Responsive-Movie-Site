@@ -1,10 +1,5 @@
 
-
-
-
-.join-nav {
-  background-color: #00D5E7;
-}
+/*     FIRST SECTION    */
 
 .main-one {
   margin: 25px;
@@ -17,6 +12,8 @@
 .main-one-container h2 {
   padding: 5px 15px;
 }
+
+/*    SECOND SECTION -- RASHOMON  */
 
 .main-two {
   background-color: #0B1942;
@@ -74,6 +71,8 @@
   line-height: 150%;
 }
 
+/*     MOVIE BLOCK SECTION    */
+
 .movie-block {
   margin: 15px;
   display: grid;
@@ -85,6 +84,9 @@
   margin: 0;
 }
 
+
+
+/*     TABLET      */
 
 @media screen and (min-width: 545px) {
 
@@ -121,6 +123,9 @@
   line-height: 150%;
 }
 }
+
+
+/*      DESKTOP     */
 
 @media screen and (min-width: 769px) {
   .main-one-container h2 {

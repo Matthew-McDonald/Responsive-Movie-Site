@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 
-/* BEGIN general + index.html mobile styling */
+
+/*    MAIN STYLES ACROSS ALL PAGES   */
+
 
 body {
   font-family: 'PT Sans';
@@ -26,6 +28,11 @@ h2 {
   color: #FFFFFF;
   font-weight: 400;
 }
+
+
+
+/*     NAV     */
+
 
 header {
   display: grid;
@@ -76,6 +83,10 @@ nav a {
   background-color: #00D5E7;
 }
 
+
+/*     FOOTER    */
+
+
 footer {
   display: grid;
   grid-row: 60% 40%;
@@ -92,6 +103,8 @@ footer {
   color: #FFFFFF;
   margin-top: 20px;
 }
+
+/*    TABLET    */
 
 @media screen and (min-width: 545px) {
 
