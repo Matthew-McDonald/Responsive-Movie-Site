@@ -104,7 +104,9 @@ footer {
   margin-top: 20px;
 }
 
+
 /*    TABLET    */
+
 
 @media screen and (min-width: 545px) {
 
@@ -157,4 +159,5 @@ footer {
     margin-top: 0;
     align-self: center;
   }
+
 }
