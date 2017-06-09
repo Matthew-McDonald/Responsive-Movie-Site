@@ -17,7 +17,9 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #0B1942;
-  padding: 1px 1px;
+  width: 100vw;
+  padding-bottom: 30px;
+  /*padding: 1px 1px;*/
 }
 
 .day {
@@ -25,13 +27,18 @@
   height: 50px;
   border: 1px solid #0B1942;
   background-color: #FFFFFF;
+  justify-content: space-between;
 }
 
 .day span {
-  padding: 8px;
+  padding: 6px;
   background-color: #0B1942;
   color: #FFFFFF;
-  font-size: .8em;
+  font-size: .9em;
+}
+
+#special {
+  background-color: #F5005B;
 }
 
 
@@ -46,7 +53,7 @@
   }
 
   .day span {
-    padding: 5px;
+    padding-top: 8px;
     margin-top: 0;
   }
 
