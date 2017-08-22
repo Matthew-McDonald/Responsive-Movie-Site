@@ -1,3 +1,5 @@
+Live Site - https://hostedprojects.github.io/Responsive-Movie-Site/
+
 Responsive Movie Site - The Iron Yard Week Two Project
 
 This was our Week Two Project. We were tasked with replicating the given mockups for phone, tablet, and desktop sizes. For all three pages we utilized CSS and Flexbox to make them responsive and to match each mockup down to the every detail.
